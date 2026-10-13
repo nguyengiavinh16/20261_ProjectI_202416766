@@ -32,13 +32,15 @@ Recommended order quantity
   - stockout cost
   - maximum storage capacity
   - minimum order quantity
+
+
 - Objective function:
 $$C(Q)=C_h max(I_t+Q-D,0)+C_s max(D-I_t-Q,0)$$
 - Data processing:
   - Make sequence (sliding window)
 - Feature Engineering: more details soon
 - LSTM: more details soon (use PyTorch)
-- Loss function: MSE MAE Huber Loss
+- Loss function: MSE, MAE, Huber Loss
   - Forecasting metric
 - Can use more method like: Navie, Moving AVG, Linear Regression, XGBoost
 - Optimization

@@ -60,7 +60,7 @@ Baseline Model             LSTM Model
 | Forecast Evaluation | Scikit-learn |
 | Optimization | Custom Grid Search |
 | Development | Jupyter Notebook, Git |
-| Dataset | TODO: Selected retail sales dataset |
+| Dataset | Rossmann Store Sales |
 
 ## Project Structure
 
@@ -109,7 +109,7 @@ The project is designed for local development. A GPU is optional; a CPU can be u
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone <https://github.com/nguyengiavinh16/20261_ProjectI_202416766.git>
 cd inventory-optimization-lstm
 ```
 
@@ -149,9 +149,6 @@ Download the selected retail sales dataset from its official source and place th
 Example dataset sources:
 
 - [Rossmann Store Sales](https://www.kaggle.com/competitions/rossmann-store-sales/data)
-- [M5 Forecasting Accuracy](https://www.kaggle.com/competitions/m5-forecasting-accuracy/data)
-- [Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
-
 Choose one primary dataset and follow its data usage terms. The exact file names and preprocessing steps depend on the selected dataset.
 
 ### 5. Launch Jupyter Notebook
